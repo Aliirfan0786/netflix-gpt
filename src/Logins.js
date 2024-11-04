@@ -10,6 +10,7 @@ import { auth } from "./utils/fireBase";
 
 import { useDispatch } from "react-redux";
 import { addUser } from "./utils/userSlice";
+import { BG_URL } from "./utils/constants";
 
 const Logins = () => {
   const [isSignInForm, setIsSignInForm] = useState(true);
@@ -100,7 +101,7 @@ const Logins = () => {
       <Header />
       <div className="absolute">
         <img
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/85ff76db-39e5-423a-afbc-97d3e74db71b/null/IN-en-20240909-TRIFECTA-perspective_b22117e0-4610-4d57-a695-20f77d241a4a_large.jpg"
+          src={BG_URL}
           alt="img"
         />
       </div>

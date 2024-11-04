@@ -45,7 +45,9 @@ Memoization
 Added .env file
 Adding .env file to gitignore
 Made our Site Responsive
-Features
+
+
+//Features
 Login/Sign Up
 Sign In /Sign up Form
 redirect to Browse Page
@@ -59,5 +61,3 @@ MovieLists * N
 NetflixGPT
 Search Bar
 Movie Suggestions
-Project Setup
-Before starting the project please add .env file and add TMDB and OPENAI KEY into it.
